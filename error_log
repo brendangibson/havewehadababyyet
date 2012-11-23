@@ -1,0 +1,2266 @@
+[16-Nov-2012 17:32:04] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 7
+[16-Nov-2012 17:34:56] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home1/petskink/public_html/havewehadababyyet/modules/Request.php on line 11
+[16-Nov-2012 17:35:35] PHP Parse error:  syntax error, unexpected '/' in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 10
+[16-Nov-2012 17:36:00] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home1/petskink/public_html/havewehadababyyet/modules/Request.php on line 11
+[16-Nov-2012 17:37:18] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home1/petskink/public_html/havewehadababyyet/modules/Request.php on line 11
+[16-Nov-2012 17:39:08] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'tpl/chrome.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 8
+[18-Nov-2012 08:44:56] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/petskink/public_html/havewehadababyyet/modules/Request.php on line 8
+[18-Nov-2012 08:48:38] constructing Request
+[18-Nov-2012 08:48:38] path: Array
+[18-Nov-2012 08:49:36] constructing Request
+[18-Nov-2012 08:49:36] path: 
+[18-Nov-2012 08:51:19] constructing Request
+[18-Nov-2012 08:51:19] path: Array
+(
+    [0] => 
+)
+
+[18-Nov-2012 08:51:44] constructing Request
+[18-Nov-2012 08:51:44] path: Array
+(
+    [0] => 
+)
+
+[18-Nov-2012 08:52:09] constructing Request
+[18-Nov-2012 08:52:09] path: Array
+(
+    [0] => 
+)
+
+[18-Nov-2012 08:52:56] constructing Request
+[18-Nov-2012 08:52:56] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.6.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 59615
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353253976
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 08:52:56] path: Array
+(
+    [0] => 
+)
+
+[18-Nov-2012 08:54:48] constructing Request
+[18-Nov-2012 08:54:48] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.7.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 59628
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353254088
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 08:54:48] path: Array
+(
+    [0] => /help/dadasd/index.php
+)
+
+[18-Nov-2012 08:56:10] constructing Request
+[18-Nov-2012 08:56:10] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.8.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 59649
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353254170
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 08:56:10] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 08:57:50] constructing Request
+[18-Nov-2012 08:57:50] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.9.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 59654
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353254270
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 08:57:50] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 08:57:50] builder: 
+[18-Nov-2012 08:57:50] pages: 1
+[18-Nov-2012 09:25:16] constructing Request
+[18-Nov-2012 09:25:16] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.10.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 59986
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353255916
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:25:16] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:25:16] builder: HomeBuilder
+[18-Nov-2012 09:25:16] pages: 1
+[18-Nov-2012 09:25:16] PHP Warning:  call_user_func(HomeBuilder.build()) [<a href='function.call-user-func'>function.call-user-func</a>]: First argument is expected to be a valid callback in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 21
+[18-Nov-2012 09:25:57] constructing Request
+[18-Nov-2012 09:25:57] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.11.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60000
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353255957
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:25:57] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:25:57] builder: HomeBuilder
+[18-Nov-2012 09:25:57] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:25:57] PHP Warning:  call_user_func(HomeBuilder.build()) [<a href='function.call-user-func'>function.call-user-func</a>]: First argument is expected to be a valid callback in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 21
+[18-Nov-2012 09:26:56] constructing Request
+[18-Nov-2012 09:26:56] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.12.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60002
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256016
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:26:56] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:26:56] builder: HomeBuilder
+[18-Nov-2012 09:26:56] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:26:56] PHP Warning:  call_user_func(HomeBuilder-&gt;build()) [<a href='function.call-user-func'>function.call-user-func</a>]: First argument is expected to be a valid callback in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 21
+[18-Nov-2012 09:29:22] constructing Request
+[18-Nov-2012 09:29:22] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.13.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60039
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256162
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:29:22] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:29:22] builder: HomeBuilder
+[18-Nov-2012 09:29:22] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:29:22] PHP Warning:  call_user_func(build) [<a href='function.call-user-func'>function.call-user-func</a>]: First argument is expected to be a valid callback in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 21
+[18-Nov-2012 09:30:15] constructing Request
+[18-Nov-2012 09:30:15] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60043
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256215
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:30:15] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:30:15] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 15
+[18-Nov-2012 09:32:23] constructing Request
+[18-Nov-2012 09:32:23] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60051
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256343
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:32:23] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:32:23] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/HomeBuilder.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 6
+[18-Nov-2012 09:32:23] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 19
+[18-Nov-2012 09:33:13] constructing Request
+[18-Nov-2012 09:33:13] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60054
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256393
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:33:13] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:33:13] including HomeBuilder
+[18-Nov-2012 09:33:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'modules/HomeBuilder.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 7
+[18-Nov-2012 09:33:13] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:34:36] constructing Request
+[18-Nov-2012 09:34:36] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60057
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256476
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:34:36] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:34:36] including HomeBuilder
+[18-Nov-2012 09:34:36] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../tpl/home.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/petskink/public_html/havewehadababyyet/modules/HomeBuilder.php on line 1
+[18-Nov-2012 09:34:36] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:35:05] constructing Request
+[18-Nov-2012 09:35:05] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60061
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256505
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:35:05] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:35:05] including HomeBuilder
+[18-Nov-2012 09:35:05] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:35:30] constructing Request
+[18-Nov-2012 09:35:30] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60063
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256530
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:35:30] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:35:30] including HomeBuilder
+[18-Nov-2012 09:35:30] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:36:50] constructing Request
+[18-Nov-2012 09:36:50] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60067
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256610
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:36:50] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:36:50] including HomeBuilder
+[18-Nov-2012 09:36:50] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:36:53] constructing Request
+[18-Nov-2012 09:36:53] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60067
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256613
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:36:53] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:36:53] including HomeBuilder
+[18-Nov-2012 09:36:53] PHP Fatal error:  Class 'HomeBuilder' not found in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 20
+[18-Nov-2012 09:37:30] constructing Request
+[18-Nov-2012 09:37:30] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.14.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60072
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256650
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:37:30] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:37:30] builder: HomeBuilder
+[18-Nov-2012 09:37:30] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:37:30] PHP Warning:  call_user_func(build) [<a href='function.call-user-func'>function.call-user-func</a>]: First argument is expected to be a valid callback in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 26
+[18-Nov-2012 09:40:49] constructing Request
+[18-Nov-2012 09:40:49] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60094
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256849
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:40:49] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:40:49] builder: HomeBuilder
+[18-Nov-2012 09:40:49] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:40:49] PHP Fatal error:  Non-static method ReflectionClass::newInstance() cannot be called statically in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 26
+[18-Nov-2012 09:43:10] constructing Request
+[18-Nov-2012 09:43:10] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60110
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353256990
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:43:10] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:43:10] builder: HomeBuilder
+[18-Nov-2012 09:43:10] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:43:10] including HomeBuilder
+[18-Nov-2012 09:43:10] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class HomeBuilder does not exist' in /home1/petskink/public_html/havewehadababyyet/index_page.php:26
+Stack trace:
+#0 /home1/petskink/public_html/havewehadababyyet/index_page.php(26): ReflectionClass->__construct('HomeBuilder')
+#1 /home1/petskink/public_html/havewehadababyyet/index_page.php(37): populate()
+#2 {main}
+  thrown in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 26
+[18-Nov-2012 09:44:31] constructing Request
+[18-Nov-2012 09:44:31] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60115
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257071
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:44:31] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:44:31] page name: pageName
+[18-Nov-2012 09:44:31] builder: HomeBuilder
+[18-Nov-2012 09:44:31] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:44:31] including HomeBuilder
+[18-Nov-2012 09:44:31] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class HomeBuilder does not exist' in /home1/petskink/public_html/havewehadababyyet/index_page.php:27
+Stack trace:
+#0 /home1/petskink/public_html/havewehadababyyet/index_page.php(27): ReflectionClass->__construct('HomeBuilder')
+#1 /home1/petskink/public_html/havewehadababyyet/index_page.php(38): populate()
+#2 {main}
+  thrown in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 27
+[18-Nov-2012 09:44:49] constructing Request
+[18-Nov-2012 09:44:49] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60116
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257089
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:44:49] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:44:49] page name: 
+[18-Nov-2012 09:44:49] builder: HomeBuilder
+[18-Nov-2012 09:44:49] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:44:49] including HomeBuilder
+[18-Nov-2012 09:44:49] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class HomeBuilder does not exist' in /home1/petskink/public_html/havewehadababyyet/index_page.php:27
+Stack trace:
+#0 /home1/petskink/public_html/havewehadababyyet/index_page.php(27): ReflectionClass->__construct('HomeBuilder')
+#1 /home1/petskink/public_html/havewehadababyyet/index_page.php(38): populate()
+#2 {main}
+  thrown in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 27
+[18-Nov-2012 09:46:09] constructing Request
+[18-Nov-2012 09:46:09] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60119
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257169
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:46:09] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:46:09] page name: 
+[18-Nov-2012 09:46:09] builder: HomeBuilder
+[18-Nov-2012 09:46:09] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:46:09] including HomeBuilder
+[18-Nov-2012 09:46:09] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class HomeBuilder does not exist' in /home1/petskink/public_html/havewehadababyyet/index_page.php:27
+Stack trace:
+#0 /home1/petskink/public_html/havewehadababyyet/index_page.php(27): ReflectionClass->__construct('HomeBuilder')
+#1 /home1/petskink/public_html/havewehadababyyet/index_page.php(38): populate()
+#2 {main}
+  thrown in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 27
+[18-Nov-2012 09:46:38] constructing Request
+[18-Nov-2012 09:46:38] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60121
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257198
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:46:38] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:46:38] page name: 
+[18-Nov-2012 09:46:38] builder: HomeBuilder
+[18-Nov-2012 09:46:38] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:46:38] including HomeBuilder
+[18-Nov-2012 09:46:38] including InnerBuilder
+[18-Nov-2012 09:46:39] PHP Fatal error:  Class 'InnerBuilder' not found in /home1/petskink/public_html/havewehadababyyet/modules/HomeBuilder.php on line 2
+[18-Nov-2012 09:47:04] constructing Request
+[18-Nov-2012 09:47:04] server: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.15.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60123
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257224
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:47:04] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:47:04] page name: 
+[18-Nov-2012 09:47:04] builder: HomeBuilder
+[18-Nov-2012 09:47:04] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:47:04] including HomeBuilder
+[18-Nov-2012 09:47:04] including InnerBuilder
+[18-Nov-2012 09:47:04] PHP Fatal error:  Call to a member function build() on a non-object in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 29
+[18-Nov-2012 09:49:39] page name: 
+[18-Nov-2012 09:49:39] builder: HomeBuilder
+[18-Nov-2012 09:49:39] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:49:39] including HomeBuilder
+[18-Nov-2012 09:49:39] including InnerBuilder
+[18-Nov-2012 09:50:01] page name: 
+[18-Nov-2012 09:50:01] builder: HomeBuilder
+[18-Nov-2012 09:50:01] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:50:01] including HomeBuilder
+[18-Nov-2012 09:50:01] including InnerBuilder
+[18-Nov-2012 09:50:48] path: 
+[18-Nov-2012 09:50:48] page name: 
+[18-Nov-2012 09:50:48] builder: HomeBuilder
+[18-Nov-2012 09:50:48] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:50:48] including HomeBuilder
+[18-Nov-2012 09:50:48] including InnerBuilder
+[18-Nov-2012 09:52:00] path: Array
+(
+    [DOCUMENT_ROOT] => /home1/petskink/public_html/havewehadababyyet
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-us
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => __utma=76331020.1768450954.1353079935.1353079935.1353253545.2; __utmb=76331020.18.10.1353253545; __utmc=76331020; __utmz=76331020.1353079935.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [HTTP_HOST] => havewehadababyyet.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+    [PATH] => /bin:/usr/bin
+    [QUERY_STRING] => 
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /help/dadasd/index.php
+    [REDIRECT_file_gzip] => /ramdisk/cpud/status
+    [REMOTE_ADDR] => 71.116.81.16
+    [REMOTE_PORT] => 60142
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /help/dadasd/index.php
+    [SCRIPT_FILENAME] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [SCRIPT_NAME] => /index_page.php
+    [SERVER_ADDR] => 74.220.220.78
+    [SERVER_ADMIN] => webmaster@havewehadababyyet.petskink.net
+    [SERVER_NAME] => havewehadababyyet.com
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <address>Apache Server at havewehadababyyet.com Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache
+    [file_gzip] => /ramdisk/cpud/status
+    [ORIG_PATH_INFO] => /help/dadasd/index.php
+    [ORIG_PATH_TRANSLATED] => /home1/petskink/public_html/havewehadababyyet/index_page.php
+    [PHP_SELF] => /index_page.php
+    [REQUEST_TIME] => 1353257520
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+[18-Nov-2012 09:52:00] path: 
+[18-Nov-2012 09:52:00] page name: 
+[18-Nov-2012 09:52:00] builder: HomeBuilder
+[18-Nov-2012 09:52:00] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:52:00] including HomeBuilder
+[18-Nov-2012 09:52:00] including InnerBuilder
+[18-Nov-2012 09:52:41] path: /help/dadasd/index.php
+[18-Nov-2012 09:52:41] path: 
+[18-Nov-2012 09:52:41] page name: 
+[18-Nov-2012 09:52:41] builder: HomeBuilder
+[18-Nov-2012 09:52:41] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:52:41] including HomeBuilder
+[18-Nov-2012 09:52:41] including InnerBuilder
+[18-Nov-2012 09:53:13] path: /help/dadasd/index.php
+[18-Nov-2012 09:53:13] path: 
+[18-Nov-2012 09:53:13] page name: 
+[18-Nov-2012 09:53:13] builder: HomeBuilder
+[18-Nov-2012 09:53:13] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:53:13] including HomeBuilder
+[18-Nov-2012 09:53:13] including InnerBuilder
+[18-Nov-2012 09:53:50] path: /help/dadasd/index.php
+[18-Nov-2012 09:53:50] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:53:50] page name: help
+[18-Nov-2012 09:53:50] builder: HelpBuilder
+[18-Nov-2012 09:53:50] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:53:50] including HelpBuilder
+[18-Nov-2012 09:53:51] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class HelpBuilder does not exist' in /home1/petskink/public_html/havewehadababyyet/index_page.php:27
+Stack trace:
+#0 /home1/petskink/public_html/havewehadababyyet/index_page.php(27): ReflectionClass->__construct('HelpBuilder')
+#1 /home1/petskink/public_html/havewehadababyyet/index_page.php(38): populate()
+#2 {main}
+  thrown in /home1/petskink/public_html/havewehadababyyet/index_page.php on line 27
+[18-Nov-2012 09:54:20] path: /help/dadasd/index.php
+[18-Nov-2012 09:54:20] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:54:20] page name: help
+[18-Nov-2012 09:54:20] builder: HelpBuilder
+[18-Nov-2012 09:54:20] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:54:20] including HelpBuilder
+[18-Nov-2012 09:54:20] including InnerBuilder
+[18-Nov-2012 09:54:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../tpl/help.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/petskink/public_html/havewehadababyyet/modules/HelpBuilder.php on line 4
+[18-Nov-2012 09:54:37] path: /help/dadasd/index.php
+[18-Nov-2012 09:54:37] path: Array
+(
+    [0] => 
+    [1] => help
+    [2] => dadasd
+    [3] => index.php
+)
+
+[18-Nov-2012 09:54:37] page name: help
+[18-Nov-2012 09:54:37] builder: HelpBuilder
+[18-Nov-2012 09:54:37] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 09:54:37] including HelpBuilder
+[18-Nov-2012 09:54:37] including InnerBuilder
+[18-Nov-2012 10:02:03] path: /brianandjo
+[18-Nov-2012 10:02:03] path: Array
+(
+    [0] => 
+    [1] => brianandjo
+)
+
+[18-Nov-2012 10:02:03] page name: brianandjo
+[18-Nov-2012 10:02:03] builder: 
+[18-Nov-2012 10:02:03] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:17:28] path: /brianandjo
+[18-Nov-2012 10:17:28] path: Array
+(
+    [0] => 
+    [1] => brianandjo
+)
+
+[18-Nov-2012 10:17:28] page name: brianandjo
+[18-Nov-2012 10:17:28] builder: 
+[18-Nov-2012 10:17:28] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:17:28] including Accounts
+[18-Nov-2012 10:17:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home1/petskink/public_html/havewehadababyyet/modules/Account.php on line 10
+[18-Nov-2012 10:19:09] path: /brianandjo
+[18-Nov-2012 10:19:09] path: Array
+(
+    [0] => 
+    [1] => brianandjo
+)
+
+[18-Nov-2012 10:19:09] page name: brianandjo
+[18-Nov-2012 10:19:09] builder: 
+[18-Nov-2012 10:19:09] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:19:09] including Accounts
+[18-Nov-2012 10:19:09] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home1/petskink/public_html/havewehadababyyet/modules/Account.php on line 13
+[18-Nov-2012 10:19:30] path: /brianandjo
+[18-Nov-2012 10:19:30] path: Array
+(
+    [0] => 
+    [1] => brianandjo
+)
+
+[18-Nov-2012 10:19:30] page name: brianandjo
+[18-Nov-2012 10:19:30] builder: 
+[18-Nov-2012 10:19:30] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:19:30] including Accounts
+[18-Nov-2012 10:19:30] including StatusBuilder
+[18-Nov-2012 10:19:30] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home1/petskink/public_html/havewehadababyyet/modules/StatusBuilder.php on line 4
+[18-Nov-2012 10:20:01] path: /brianandjo
+[18-Nov-2012 10:20:01] path: Array
+(
+    [0] => 
+    [1] => brianandjo
+)
+
+[18-Nov-2012 10:20:01] page name: brianandjo
+[18-Nov-2012 10:20:01] builder: 
+[18-Nov-2012 10:20:01] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:20:01] including Accounts
+[18-Nov-2012 10:20:01] including StatusBuilder
+[18-Nov-2012 10:20:01] including InnerBuilder
+[18-Nov-2012 10:20:01] PHP Fatal error:  Call to a member function getStatus() on a non-object in /home1/petskink/public_html/havewehadababyyet/tpl/status.php on line 1
+[18-Nov-2012 10:20:09] path: /jackanddiane
+[18-Nov-2012 10:20:09] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:20:09] page name: jackanddiane
+[18-Nov-2012 10:20:09] builder: 
+[18-Nov-2012 10:20:09] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:20:09] including Accounts
+[18-Nov-2012 10:20:09] including StatusBuilder
+[18-Nov-2012 10:20:09] including InnerBuilder
+[18-Nov-2012 10:20:09] PHP Fatal error:  Call to a member function getStatus() on a non-object in /home1/petskink/public_html/havewehadababyyet/tpl/status.php on line 1
+[18-Nov-2012 10:20:56] path: /jackanddiane
+[18-Nov-2012 10:20:56] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:20:56] page name: jackanddiane
+[18-Nov-2012 10:20:56] builder: 
+[18-Nov-2012 10:20:56] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:20:56] including Accounts
+[18-Nov-2012 10:20:56] including StatusBuilder
+[18-Nov-2012 10:20:56] including InnerBuilder
+[18-Nov-2012 10:21:07] path: /jackanddiane
+[18-Nov-2012 10:21:07] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:21:07] page name: jackanddiane
+[18-Nov-2012 10:21:07] builder: 
+[18-Nov-2012 10:21:07] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:21:07] including Accounts
+[18-Nov-2012 10:21:07] including StatusBuilder
+[18-Nov-2012 10:21:07] including InnerBuilder
+[18-Nov-2012 10:22:13] path: /jackanddiane
+[18-Nov-2012 10:22:13] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:22:13] page name: jackanddiane
+[18-Nov-2012 10:22:13] builder: 
+[18-Nov-2012 10:22:13] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:22:13] including Accounts
+[18-Nov-2012 10:22:13] including StatusBuilder
+[18-Nov-2012 10:22:13] including InnerBuilder
+[18-Nov-2012 10:22:13] account: Account Object
+(
+    [statusString:private] => 
+)
+
+[18-Nov-2012 10:23:18] path: /jackanddiane
+[18-Nov-2012 10:23:18] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:23:18] page name: jackanddiane
+[18-Nov-2012 10:23:18] builder: 
+[18-Nov-2012 10:23:18] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:23:18] including Accounts
+[18-Nov-2012 10:23:18] including StatusBuilder
+[18-Nov-2012 10:23:18] including InnerBuilder
+[18-Nov-2012 10:23:18] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[18-Nov-2012 10:27:36] path: /jackanddiane
+[18-Nov-2012 10:27:36] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:27:36] page name: jackanddiane
+[18-Nov-2012 10:27:36] builder: 
+[18-Nov-2012 10:27:36] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:27:36] including Accounts
+[18-Nov-2012 10:27:36] including StatusBuilder
+[18-Nov-2012 10:27:36] including InnerBuilder
+[18-Nov-2012 10:27:36] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[18-Nov-2012 10:28:20] path: /jackanddiane
+[18-Nov-2012 10:28:20] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:28:20] page name: jackanddiane
+[18-Nov-2012 10:28:20] builder: 
+[18-Nov-2012 10:28:20] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:28:20] including Accounts
+[18-Nov-2012 10:28:20] including StatusBuilder
+[18-Nov-2012 10:28:20] including InnerBuilder
+[18-Nov-2012 10:28:20] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[18-Nov-2012 10:28:43] path: /jackanddiane
+[18-Nov-2012 10:28:43] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 10:28:43] page name: jackanddiane
+[18-Nov-2012 10:28:43] builder: 
+[18-Nov-2012 10:28:43] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 10:28:43] including Accounts
+[18-Nov-2012 10:28:43] including StatusBuilder
+[18-Nov-2012 10:28:43] including InnerBuilder
+[18-Nov-2012 10:28:43] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[18-Nov-2012 17:58:47] path: /jackanddiane
+[18-Nov-2012 17:58:47] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[18-Nov-2012 17:58:47] page name: jackanddiane
+[18-Nov-2012 17:58:47] builder: 
+[18-Nov-2012 17:58:47] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 17:58:47] including Accounts
+[18-Nov-2012 17:58:47] including StatusBuilder
+[18-Nov-2012 17:58:47] including InnerBuilder
+[18-Nov-2012 17:58:47] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[18-Nov-2012 22:12:09] path: /robots.txt
+[18-Nov-2012 22:12:09] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[18-Nov-2012 22:12:09] page name: robots.txt
+[18-Nov-2012 22:12:09] builder: 
+[18-Nov-2012 22:12:09] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[18-Nov-2012 22:12:09] including Accounts
+[18-Nov-2012 22:12:09] including StatusBuilder
+[18-Nov-2012 22:12:09] including InnerBuilder
+[18-Nov-2012 22:12:09] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[20-Nov-2012 00:20:47] path: /robots.txt
+[20-Nov-2012 00:20:47] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[20-Nov-2012 00:20:47] page name: robots.txt
+[20-Nov-2012 00:20:47] builder: 
+[20-Nov-2012 00:20:47] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[20-Nov-2012 00:20:47] including Accounts
+[20-Nov-2012 00:20:47] including StatusBuilder
+[20-Nov-2012 00:20:47] including InnerBuilder
+[20-Nov-2012 00:20:47] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[20-Nov-2012 00:48:30] path: /jackanddiane
+[20-Nov-2012 00:48:30] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[20-Nov-2012 00:48:30] page name: jackanddiane
+[20-Nov-2012 00:48:30] builder: 
+[20-Nov-2012 00:48:30] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[20-Nov-2012 00:48:30] including Accounts
+[20-Nov-2012 00:48:30] including StatusBuilder
+[20-Nov-2012 00:48:30] including InnerBuilder
+[20-Nov-2012 00:48:30] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[20-Nov-2012 07:23:54] path: /robots.txt
+[20-Nov-2012 07:23:54] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[20-Nov-2012 07:23:54] page name: robots.txt
+[20-Nov-2012 07:23:54] builder: 
+[20-Nov-2012 07:23:54] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[20-Nov-2012 07:23:54] including Accounts
+[20-Nov-2012 07:23:54] including StatusBuilder
+[20-Nov-2012 07:23:54] including InnerBuilder
+[20-Nov-2012 07:23:54] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[21-Nov-2012 02:06:00] path: /robots.txt
+[21-Nov-2012 02:06:00] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[21-Nov-2012 02:06:00] page name: robots.txt
+[21-Nov-2012 02:06:00] builder: 
+[21-Nov-2012 02:06:00] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[21-Nov-2012 02:06:00] including Accounts
+[21-Nov-2012 02:06:00] including StatusBuilder
+[21-Nov-2012 02:06:00] including InnerBuilder
+[21-Nov-2012 02:06:00] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[21-Nov-2012 05:15:03] path: /robots.txt
+[21-Nov-2012 05:15:03] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[21-Nov-2012 05:15:03] page name: robots.txt
+[21-Nov-2012 05:15:03] builder: 
+[21-Nov-2012 05:15:03] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[21-Nov-2012 05:15:03] including Accounts
+[21-Nov-2012 05:15:03] including StatusBuilder
+[21-Nov-2012 05:15:03] including InnerBuilder
+[21-Nov-2012 05:15:03] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[21-Nov-2012 08:59:24] path: /robots.txt
+[21-Nov-2012 08:59:24] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[21-Nov-2012 08:59:24] page name: robots.txt
+[21-Nov-2012 08:59:24] builder: 
+[21-Nov-2012 08:59:24] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[21-Nov-2012 08:59:24] including Accounts
+[21-Nov-2012 08:59:24] including StatusBuilder
+[21-Nov-2012 08:59:24] including InnerBuilder
+[21-Nov-2012 08:59:24] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[21-Nov-2012 12:56:06] path: /robots.txt
+[21-Nov-2012 12:56:06] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[21-Nov-2012 12:56:06] page name: robots.txt
+[21-Nov-2012 12:56:06] builder: 
+[21-Nov-2012 12:56:06] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[21-Nov-2012 12:56:06] including Accounts
+[21-Nov-2012 12:56:07] including StatusBuilder
+[21-Nov-2012 12:56:07] including InnerBuilder
+[21-Nov-2012 12:56:07] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[21-Nov-2012 13:21:53] path: /robots.txt
+[21-Nov-2012 13:21:53] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[21-Nov-2012 13:21:53] page name: robots.txt
+[21-Nov-2012 13:21:53] builder: 
+[21-Nov-2012 13:21:53] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[21-Nov-2012 13:21:53] including Accounts
+[21-Nov-2012 13:21:53] including StatusBuilder
+[21-Nov-2012 13:21:53] including InnerBuilder
+[21-Nov-2012 13:21:53] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[22-Nov-2012 08:43:26] path: /robots.txt
+[22-Nov-2012 08:43:26] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[22-Nov-2012 08:43:26] page name: robots.txt
+[22-Nov-2012 08:43:26] builder: 
+[22-Nov-2012 08:43:26] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[22-Nov-2012 08:43:26] including Accounts
+[22-Nov-2012 08:43:26] including StatusBuilder
+[22-Nov-2012 08:43:26] including InnerBuilder
+[22-Nov-2012 08:43:26] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[22-Nov-2012 12:26:27] path: /jackanddiane
+[22-Nov-2012 12:26:27] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[22-Nov-2012 12:26:27] page name: jackanddiane
+[22-Nov-2012 12:26:27] builder: 
+[22-Nov-2012 12:26:27] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[22-Nov-2012 12:26:27] including Accounts
+[22-Nov-2012 12:26:27] including StatusBuilder
+[22-Nov-2012 12:26:27] including InnerBuilder
+[22-Nov-2012 12:26:27] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[22-Nov-2012 16:58:20] path: /jackanddiane
+[22-Nov-2012 16:58:20] path: Array
+(
+    [0] => 
+    [1] => jackanddiane
+)
+
+[22-Nov-2012 16:58:20] page name: jackanddiane
+[22-Nov-2012 16:58:20] builder: 
+[22-Nov-2012 16:58:20] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[22-Nov-2012 16:58:20] including Accounts
+[22-Nov-2012 16:58:20] including StatusBuilder
+[22-Nov-2012 16:58:20] including InnerBuilder
+[22-Nov-2012 16:58:20] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[23-Nov-2012 04:21:03] path: /robots.txt
+[23-Nov-2012 04:21:03] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[23-Nov-2012 04:21:03] page name: robots.txt
+[23-Nov-2012 04:21:03] builder: 
+[23-Nov-2012 04:21:03] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[23-Nov-2012 04:21:03] including Accounts
+[23-Nov-2012 04:21:03] including StatusBuilder
+[23-Nov-2012 04:21:03] including InnerBuilder
+[23-Nov-2012 04:21:03] account: Account Object
+(
+    [statusString:private] => No
+)
+
+[23-Nov-2012 08:53:15] path: /robots.txt
+[23-Nov-2012 08:53:15] path: Array
+(
+    [0] => 
+    [1] => robots.txt
+)
+
+[23-Nov-2012 08:53:15] page name: robots.txt
+[23-Nov-2012 08:53:15] builder: 
+[23-Nov-2012 08:53:15] pages: Array
+(
+    [signup] => SignupBuilder
+    [help] => HelpBuilder
+    [admin] => AdminBuilder
+    [] => HomeBuilder
+)
+
+[23-Nov-2012 08:53:15] including Accounts
+[23-Nov-2012 08:53:15] including StatusBuilder
+[23-Nov-2012 08:53:15] including InnerBuilder
+[23-Nov-2012 08:53:15] account: Account Object
+(
+    [statusString:private] => No
+)
+
