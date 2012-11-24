@@ -1,14 +1,19 @@
 <?php
 
-class Account {
+class Account extends DataDriven {
 
-    private $statusString = "No";
-
-    function __construct() {
+    private $path;
+    private $status;
+    
+    function __construct($path) {
+        parent::__construct();
+        $accountResult = $this->getDataProvider()->getAccount($path);    
+        $this->status = $accountResult[2];
+        error_log("account in const: ".print_r($accountResult,TRUE));
     }
 
     function getStatus() {
-        return $this->statusString;
+        return $this->status ? "yes" : "no";
     }
 }
 ?>

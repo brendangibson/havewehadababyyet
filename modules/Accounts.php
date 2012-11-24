@@ -2,17 +2,20 @@
 
 require("modules/Account.php");
 
-class Accounts {
+class Accounts extends DataDriven {
+
     
     function __construct() {
+       parent::__construct();
     }
 
     function isValid($accountPath) {
-        return true;
+        error_log("Checking whether $accountPath is valid");
+        return $this->getDataProvider()->isValid($accountPath);
     }
 
     function getAccount($accountPath) {
-        return new Account();
+        return new Account($accountPath);
     }
 }
 ?>
