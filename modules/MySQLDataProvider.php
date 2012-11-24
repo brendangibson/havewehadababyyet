@@ -37,7 +37,7 @@ class MySQLDataProvider extends DataProvider {
 
     function getAccount($path) {
         $result = $this->query("SELECT * FROM Birth WHERE path = '$path'");
-        $row = $result->fetch_row();
+        $row = $result->fetch_assoc();
         error_log("in dp, account: ".print_r($row,TRUE));
         return $row;
     }

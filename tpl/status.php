@@ -1,1 +1,1 @@
-Have we had a baby yet: <?php echo $account->getStatus() ?>
+Have we had a baby yet: <?php echo $account->getBorn() ?>
