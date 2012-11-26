@@ -12,5 +12,6 @@ class StatusBuilder extends InnerBuilder {
         error_log("account: " . print_r($account, TRUE));
         include("tpl/status.php");
     }
+
 }
 ?>

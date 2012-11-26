@@ -4,6 +4,7 @@
 class MySQLDataProvider extends DataProvider {
 
     private $db;
+    private $insertId;
 
     function __construct() {
         if (!$this->db) {
@@ -18,7 +19,20 @@ class MySQLDataProvider extends DataProvider {
 
     private function query($queryStr) {
         error_log("query: $queryStr");
-        return $this->db->query($queryStr);
+        $result =  $this->db->query($queryStr);
+        if (!$result) {
+            error_log("Insert error: ".$this->db->error);
+        } else {
+            $this->insertId = $this->db->insert_id;
+            error_log("insert id: ".$this->insertId);
+        }
+        
+        //$this->db->close();
+        return $result;
+    }
+
+    private function getInsertId() {
+        return $this->insertId;
     }
 
     function getHandle() {
@@ -40,6 +54,21 @@ class MySQLDataProvider extends DataProvider {
         $row = $result->fetch_assoc();
         error_log("in dp, account: ".print_r($row,TRUE));
         return $row;
+    }
+
+    function createAccount($path, $username, $password) {
+        $encryptedPassword = $password;
+        $result = $this->query("INSERT INTO Birth (path) VALUES ('$path')");
+        if ($result) {
+            $birthId = $this->getInsertId(); 
+            $result2 = $this->query("INSERT INTO Account(username, password) VALUES ('$username', '$password')");
+            if ($result2) {
+                $accountId = $this->getInsertId();
+                $result3 = $this->query("INSERT INTO AccountBirth(account_id, birth_id) VALUES ('$accountId', '$birthId')");
+                if ($result3) { return true; }
+            }
+        }
+        return false;
     }
 }
 ?>

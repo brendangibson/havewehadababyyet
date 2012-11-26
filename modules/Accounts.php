@@ -15,7 +15,8 @@ class Accounts extends DataDriven {
     }
 
     function getAccount($accountPath) {
-        return new Account($accountPath);
+        $account = new Account();
+        return $account->withPath($accountPath);
     }
 }
 ?>
