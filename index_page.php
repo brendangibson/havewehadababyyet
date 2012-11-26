@@ -9,16 +9,20 @@ function __autoload($class_name) {
 
 $request = new Request();
 
+function getPages() {
 
-
-function populate($pageName) {
-
-    $pages = array(
+    return array(
+        "createaccount" => "CreateAccountBuilder",
         "signup" => "SignupBuilder",
         "help" => "HelpBuilder",
         "admin" => "AdminBuilder",
         "" => "HomeBuilder"
     );
+}
+
+function getBuilder($pageName) {
+
+    $pages = getPages();
     error_log("page name: ". $pageName);
     $builder = $pages[$pageName];
     error_log("builder: " . $builder);
@@ -26,6 +30,14 @@ function populate($pageName) {
     if ( $builder) {
         $reflectedBuilder = new ReflectionClass($builder);
         $builderInstance = $reflectedBuilder->newInstance();
+        return $builderInstance;
+    } else {
+        return null;
+    }
+}
+
+function populate($pageName, $builderInstance, $request) {
+    if ( $builderInstance) {
         return $builderInstance->build();
     } else {
         $accounts = new Accounts();
@@ -41,11 +53,13 @@ function populate($pageName) {
 
 }
 
-if ($request->isPageRequest()) {
-    $inner = populate($request->getPageName());
+$pageName = $request->getPageName();
+$builderInstance = getBuilder($pageName);
+$inner = populate($pageName, $builderInstance, $request);
+if ($builderInstance && $builderInstance->isPage()) {
 	include('tpl/chrome.php');	
 } else {
-	echo "not a page";
+	echo $inner;
 }
 
 
