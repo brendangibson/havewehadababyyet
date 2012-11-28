@@ -9,8 +9,11 @@
             $account = new Account;
             $account->create($path, $username, $password);
             if ($account->store()) {
+                session_start();
                 echo '{"success": true}'; 
             } else {
+                $_SESSION = array(); 
+                session_destroy();
                 echo '{"success": false}';
             }
         }

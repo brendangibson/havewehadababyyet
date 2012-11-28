@@ -18,5 +18,9 @@ class Accounts extends DataDriven {
         $account = new Account();
         return $account->withPath($accountPath);
     }
+
+    function canLogin($username, $password) {
+        return true;
+    }
 }
 ?>

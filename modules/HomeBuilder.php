@@ -1,7 +1,10 @@
 <?php
 class HomeBuilder extends InnerBuilder {
-    function build() {
-        include("tpl/home.php");
-    }
+	
+	function getIncludeFile() {
+		return "tpl/home.php";
+	}
+
+	
 }
 ?>

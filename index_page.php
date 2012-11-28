@@ -12,7 +12,9 @@ $request = new Request();
 function getPages() {
 
     return array(
+        "about" => "AboutBuilder",
         "createaccount" => "CreateAccountBuilder",
+		"loginpage" => "LoginPageBuilder",
         "signup" => "SignupBuilder",
         "help" => "HelpBuilder",
         "admin" => "AdminBuilder",
@@ -46,7 +48,7 @@ function populate($pageName, $builderInstance, $request) {
             $statusBuilder = new StatusBuilder($account);
             return $statusBuilder->build(); 
         } else {
-            return "unknown";
+			return "unknown";
         }
     }
      
@@ -57,9 +59,9 @@ $pageName = $request->getPageName();
 $builderInstance = getBuilder($pageName);
 $inner = populate($pageName, $builderInstance, $request);
 if ($builderInstance && $builderInstance->isPage()) {
-	include('tpl/chrome.php');	
+    include('tpl/chrome.php');  
 } else {
-	echo $inner;
+    echo($inner);
 }
 
 

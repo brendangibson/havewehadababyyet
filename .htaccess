@@ -1,6 +1,8 @@
 RewriteEngine On
 RewriteBase /
 
+DirectoryIndex index_page.php
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index_page.php/$1 [L]

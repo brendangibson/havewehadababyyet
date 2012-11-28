@@ -10,8 +10,17 @@ class StatusBuilder extends InnerBuilder {
     function build() {
         $account = $this->account;
         error_log("account: " . print_r($account, TRUE));
-        include("tpl/status.php");
+		ob_start();
+		include("tpl/status.php");
+		$returnVal = ob_get_contents();
+		ob_end_clean();
+		error_log("return: ".$returnVal);
+		return $returnVal;
     }
+	
+	function getIncludeFile() {
+		return "tpl/status.php";	
+	}
 
 }
 ?>

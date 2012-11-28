@@ -17,6 +17,10 @@ class Request {
         error_log("path: " . print_r($this->path, TRUE));
         return $this->path[1];
     }
+
+    function getPageAddendum() {
+        return $this->path[2];
+    }
 };
 
 ?>
