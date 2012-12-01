@@ -1,10 +1,10 @@
 <?php
-class HomeBuilder extends InnerBuilder {
+	class HomeBuilder extends InnerBuilder {
 	
-	function getIncludeFile() {
-		return "tpl/home.php";
-	}
+		function getIncludeFile() {
+			return "tpl/home.php";
+		}
 
 	
-}
+	}
 ?>

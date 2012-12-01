@@ -22,5 +22,13 @@ class Accounts extends DataDriven {
     function canLogin($username, $password) {
         return true;
     }
+    
+    function getLogin($username, $password) {
+        return $this->getDataProvider()->getLogin($username, $password);
+    }
+	
+	function isOwner($username, $path) {
+		return $this->getDataProvider()->isOwner($username, $path);	
+	}
 }
 ?>

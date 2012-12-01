@@ -8,8 +8,8 @@
             
             $account = new Account;
             $account->create($path, $username, $password);
-            if ($account->store()) {
-                session_start();
+            if ($account->storeNew()) {
+                Session::startSession($path, $username);
                 echo '{"success": true}'; 
             } else {
                 $_SESSION = array(); 

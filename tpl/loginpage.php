@@ -4,3 +4,5 @@
     <input type="button" value="login" id="loginbutton"/>
 
 </form>
+
+<span id="loginmessage"></span>

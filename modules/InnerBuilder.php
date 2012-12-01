@@ -22,6 +22,6 @@
     	
 		function isPage() { return true; }
 		
-		abstract function getIncludeFile();
-}
+		function getIncludeFile() { return ''; }
+	}
 ?>

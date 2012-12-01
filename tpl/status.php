@@ -1,1 +1,1 @@
-Have we had a baby yet: <?php echo $account->getBorn() ?>
+<div class="status"><?php echo $account->getBorn() ?></div>

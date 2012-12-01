@@ -9,8 +9,8 @@ class Request {
         $this->path = explode("/", $_SERVER["ORIG_PATH_INFO"]);    
     }
 
-	function isPageRequest() {
-		return true;
+	function isNonPageRequest() {
+		return $_GET['np'];
     }	
 
     function getPageName() {

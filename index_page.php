@@ -13,11 +13,14 @@ function getPages() {
 
     return array(
         "about" => "AboutBuilder",
-        "createaccount" => "CreateAccountBuilder",
-		"loginpage" => "LoginPageBuilder",
-        "signup" => "SignupBuilder",
-        "help" => "HelpBuilder",
         "admin" => "AdminBuilder",
+        "createaccount" => "CreateAccountBuilder",
+        "help" => "HelpBuilder",
+        "login" => "LoginBuilder",
+		"loginpage" => "LoginPageBuilder",
+        "logout" => "LogoutBuilder",
+        "signup" => "SignupBuilder",
+        "update" => "UpdateBuilder",
         "" => "HomeBuilder"
     );
 }
@@ -38,30 +41,37 @@ function getBuilder($pageName) {
     }
 }
 
-function populate($pageName, $builderInstance, $request) {
-    if ( $builderInstance) {
-        return $builderInstance->build();
-    } else {
-        $accounts = new Accounts();
-        if ($accounts->isValid($pageName)) {
-            $account = $accounts->getAccount($pageName);
-            $statusBuilder = new StatusBuilder($account);
-            return $statusBuilder->build(); 
-        } else {
-			return "unknown";
-        }
-    }
-     
-
-}
-
+session_start();
 $pageName = $request->getPageName();
 $builderInstance = getBuilder($pageName);
-$inner = populate($pageName, $builderInstance, $request);
-if ($builderInstance && $builderInstance->isPage()) {
-    include('tpl/chrome.php');  
+$path = '';
+
+if ( !$builderInstance) {
+		
+	error_log("no builder");
+	$accounts = new Accounts();
+	error_log("accounts: ".print_r($accounts,TRUE));
+	if ($accounts->isValid($pageName)) {
+        $path = $pageName;
+        
+		if ($request->getPageAddendum() == "admin") {
+			$username = Session::getUsername();
+			error_log("before admin: ".print_r($_SESSION,TRUE));
+			$builderInstance = new AdminBuilder($username,$pageName);
+		} else {
+			$account = $accounts->getAccount($pageName);
+			$builderInstance = new StatusBuilder($account);
+		}
+	} else {
+		echo $builderInstance = new UnknownBuilder();
+	}
+}
+
+
+if ($request->isNonPageRequest() || ($builderInstance && !$builderInstance->isPage())) {
+    include('modules/populateInner.php');
 } else {
-    echo($inner);
+    include('tpl/chrome.php');  
 }
 
 
