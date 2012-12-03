@@ -6,13 +6,7 @@
         </style>
    </head>
  <body>
-    <?php if (Session::isLoggedIn()) { ?>
-        <a href="javascript:void(0);" id="logoutbutton">Logout</a>|
-        <a href="javascript:void(0);" id="adminbutton">Admin</a>
-    <? } else { ?>
-        <a href="/signup">Signup</a>
-    <? } ?>
-    <a href="/about">About</a>
+    <? include 'tpl/navigation.php' ?>   
 	<div id="inner" data-path="<?= $path ?>"> 
     	<?php include 'modules/populateInner.php' ?>
 	</div>	

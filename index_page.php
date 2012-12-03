@@ -42,9 +42,11 @@ function getBuilder($pageName) {
 }
 
 session_start();
+$ini_array = parse_ini_file("config.ini");
 $pageName = $request->getPageName();
 $builderInstance = getBuilder($pageName);
 $path = '';
+$statusPage = false;
 
 if ( !$builderInstance) {
 		
@@ -61,9 +63,10 @@ if ( !$builderInstance) {
 		} else {
 			$account = $accounts->getAccount($pageName);
 			$builderInstance = new StatusBuilder($account);
+            $statusPage = true;
 		}
 	} else {
-		echo $builderInstance = new UnknownBuilder();
+		$builderInstance = new UnknownBuilder();
 	}
 }
 
