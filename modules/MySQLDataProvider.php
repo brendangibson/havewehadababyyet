@@ -5,6 +5,8 @@ class MySQLDataProvider extends DataProvider {
 
     private $db;
     private $insertId;
+    
+    private static $ROUNDS = 10;
 
     function __construct() {
         if (!$this->db) {
@@ -63,19 +65,29 @@ class MySQLDataProvider extends DataProvider {
     }
 
     static function encryptPassword($password) {
-        return $password;
+        $bcrypt = new Bcrypt(self::$ROUNDS);
+
+        $hash = $bcrypt->hash($password);
+        return $hash;
+    }
+    
+    static function verifyPassword($password, $hash) {
+        $bcrypt = new Bcrypt(self::$ROUNDS);
+        return $bcrypt->verify($password, $hash);
     }
 
     function createAccount($path, $username, $password) {
         $path = $this->escape($path);
         $username = $this->escape($username);
         $password = $this->escape($password);
-        
         $encryptedPassword = self::encryptPassword($password);
+        
+        error_log("ep: $encryptedPassword");
+
         $result = $this->query("INSERT INTO Birth (path) VALUES ('$path')");
         if ($result) {
             $birthId = $this->getInsertId(); 
-            $result2 = $this->query("INSERT INTO Account(username, password) VALUES ('$username', '$password')");
+            $result2 = $this->query("INSERT INTO Account(username, password) VALUES ('$username', '$encryptedPassword')");
             if ($result2) {
                 $accountId = $this->getInsertId();
                 $result3 = $this->query("INSERT INTO AccountBirth(account_id, birth_id) VALUES ('$accountId', '$birthId')");
@@ -90,13 +102,14 @@ class MySQLDataProvider extends DataProvider {
     function getLogin($username, $password) {
         $username = $this->escape($username);
         $password = $this->escape($password);
-    
+        
         $encryptedPassword = self::encryptPassword($password);
-        $result = $this->query("SELECT path, is_owner FROM Account a, AccountBirth ab, Birth b 
-            WHERE a.username = '$username' AND a.password = '$encryptedPassword' AND a.account_id = ab.account_id
+        $result = $this->query("SELECT path, is_owner, a.password FROM Account a, AccountBirth ab, Birth b 
+            WHERE a.username = '$username' AND a.account_id = ab.account_id
                 AND b.birth_id = ab.birth_id");
         $row = $result->fetch_assoc();
-        if ($row) {
+        error_log("login row: ".print_r($row, TRUE));
+        if ($row && $row['is_owner'] && self::verifyPassword($password, $row['password'])) {
             return $row;
         } else {
             return null;

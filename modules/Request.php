@@ -5,21 +5,22 @@ class Request {
     private $path;
 
     function __construct() {
-        error_log("path: " . print_r($_SERVER["ORIG_PATH_INFO"], TRUE));
-        $this->path = explode("/", $_SERVER["ORIG_PATH_INFO"]);    
+        $originalPath = isset($_SERVER["ORIG_PATH_INFO"]) ? $_SERVER["ORIG_PATH_INFO"] : null;
+        error_log("path: " . print_r($originalPath, TRUE));
+        $this->path = explode("/", $originalPath);    
     }
 
 	function isNonPageRequest() {
-		return $_GET['np'];
+		return isset($_GET['np']) && $_GET['np'];
     }	
 
     function getPageName() {
         error_log("path: " . print_r($this->path, TRUE));
-        return $this->path[1];
+        return isset($this->path[1]) ? $this->path[1] : null;
     }
 
     function getPageAddendum() {
-        return $this->path[2];
+        return isset($this->path[2]) ? $this->path[2] : null;
     }
 };
 

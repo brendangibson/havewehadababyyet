@@ -29,7 +29,7 @@ function getBuilder($pageName) {
 
     $pages = getPages();
     error_log("page name: ". $pageName);
-    $builder = $pages[$pageName];
+    $builder = isset($pages[$pageName]) ? $pages[$pageName] : null;
     error_log("builder: " . $builder);
     error_log("pages: " . print_r($pages, TRUE));
     if ( $builder) {
