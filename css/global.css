@@ -3,6 +3,9 @@ body {
     font-family: arial, Verdana, helvetica;
 }
 
+a {
+    text-decoration: none;    
+}
 
 #inner {
     padding: 5% 0;
@@ -15,3 +18,37 @@ body {
     text-transform: uppercase;
     padding: 10% 0;
 }
+
+.main_logo {
+    margin: 0 auto;
+    display: block;
+    height: 500px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    background-color: brown;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.searchBox {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.accountButtons {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#signupPane {
+    width: 400px;
+    height: 400px;
+    display: none;
+    background-color: green;
+    position: absolute;
+}
+

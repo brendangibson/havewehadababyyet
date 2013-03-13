@@ -21,7 +21,7 @@
         
         static function isLoggedIn() {
             error_log("checking session id: ".session_id());
-            return session_id() != null && $_SESSION['path'];
+            return session_id() != null && isset($_SESSION['path']);
         }
         
         static function logout() {

@@ -23,10 +23,10 @@
             if (forcePage) {
                 location.href = url;    
             } else {
-        		$.ajax({
-    				url: url,
-    				success: showStatus	
-    			});
+                $.ajax({
+                    url: url,
+                    success: showStatus	
+                });
             }
 		},
 		
@@ -137,5 +137,17 @@
     $("#adminbutton").on('click', function () {
         goToPath($inner.data('path'), false, true);
     });
-	
+    
+    $("#signup").on('click', function () {
+        var $signupPane = $("#signupPane");
+        $signupPane.show();
+        $("body").on('click', function () {
+            $signupPane.hide();    
+        });
+        return false;
+    });
+    
+
+    
+    
 }(jQuery));

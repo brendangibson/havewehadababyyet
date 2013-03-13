@@ -43,6 +43,7 @@ function getBuilder($pageName) {
 
 session_start();
 $ini_array = parse_ini_file("config.ini");
+error_log("ini_array: ". print_r($ini_array, TRUE));
 $pageName = $request->getPageName();
 $builderInstance = getBuilder($pageName);
 $path = '';
