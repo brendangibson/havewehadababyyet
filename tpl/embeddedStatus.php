@@ -139,7 +139,7 @@
     });
 </script>
 
-<a class="embedded" href="<?= $ini_array['base_url'] ?>" target="_top">
+<a class="embedded" href="<?= $ini_array['base_url']?>/<?= $account->getPath()?>" target="_top">
     <img class="elogo fadeable" src="/images/HWHABY_logo_218.png" alt="Have We Had a Baby Yet?">
     <div class="estatus fadeable faded"><?php echo $account->getBorn() ?></div>
 </a>
